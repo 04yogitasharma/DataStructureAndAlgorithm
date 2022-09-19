@@ -1,0 +1,12 @@
+git config --global user.name
+git config --global user.email
+git init
+git add Array/  #if we want to add folder to our git repository
+git add . #to add all the files at one go
+git commit -m"Initial commit"
+git status
+git remote add origin <ssh-keygen -t ed25519 -C "sharmayogita962@gmail.com">
+git push origin master
+cat <public key>
+git push origin master
+
